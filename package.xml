@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>alfred_sr_linux</name>
+  <version>0.1.20</version>
+  <description>The alfred_sr_linux package</description>
+
+  <maintainer email="mick.gaillard@gmail.com">Mickael Gaillard</maintainer>
+  <author email="mick.gaillard@gmail.com">Mickael Gaillard</author>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>smarthome_media_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>sound_play</build_depend>
+
+  <run_depend>sound_play</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>smarthome_media_msgs</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+
+</package>
