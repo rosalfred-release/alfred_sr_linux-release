@@ -1,0 +1,16 @@
+ros-indigo-alfred-sr-linux (0.1.20-0saucy) saucy; urgency=high
+
+  * Update package dependencies
+  * Update package description & license
+  * Contributors: Erwan Le Huitouze
+
+ -- Mickael Gaillard <mick.gaillard@gmail.com>  Sat, 04 Jun 2016 22:00:00 -0000
+
+ros-indigo-alfred-sr-linux (0.1.18-0saucy) saucy; urgency=high
+
+  * Update package.xml, add author
+  * Contributors: Erwan Le Huitouze
+
+ -- Mickael Gaillard <mick.gaillard@gmail.com>  Sat, 05 Mar 2016 23:00:00 -0000
+
+

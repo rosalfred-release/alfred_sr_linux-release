@@ -1,0 +1,12 @@
+Source: ros-indigo-alfred-sr-linux
+Section: misc
+Priority: extra
+Maintainer: Mickael Gaillard <mick.gaillard@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-message-generation, ros-indigo-rospy, ros-indigo-smarthome-media-msgs, ros-indigo-sound-play, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-alfred-sr-linux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-dynamic-reconfigure, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-smarthome-media-msgs, ros-indigo-sound-play, ros-indigo-std-msgs
+Description: The alfred_sr_linux package
